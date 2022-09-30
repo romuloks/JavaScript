@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var contaBanco_1 = require("./src/contaBanco");
+//import { Pessoa } from "./src/pessoa";
+//let pessoaUm =new Pessoa();
+//pessoaUm.nome = "debora / pekky";
+//pessoaUm.cpf = "332.456.543-12";
+//pessoaUm.idade = 24;
+//pessoaUm.telefone = "(21)99094-0172";
+//console.log(`o nome da pesoa é: ${pessoaUm.nome} `);
+var conta1 = new contaBanco_1.contaBanco("Romulo", "005-4", "4002-52", 500);
+conta1.deposito(500);
+conta1.verSaldo;
+//console.log(conta1.saldo);
